@@ -15,7 +15,7 @@ sudo debootstrap \
 --variant=minbase \
 stable \
 $HOME/$LIVE_BOOT/chroot \
-http://ftp.us.debian.org/debian
+http://ftp.kr.debian.org/debian
 
 sudo cp ./03_*.sh $HOME/$LIVE_BOOT/chroot
 sudo cp ./denos_config.txt $HOME/$LIVE_BOOT/chroot
